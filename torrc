@@ -15,3 +15,6 @@ NumEntryGuards 8
 
 # Daemonize tor
 RunAsDaemon 1
+
+## The directory for keeping all the keys/etc
+DataDirectory /tmp/tor
