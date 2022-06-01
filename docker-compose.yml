@@ -15,8 +15,6 @@ services:
       - "8080:8080"
     environment:
       - LAGOON_ROUTE=nginx.docker.amazee.io
-      - TOR_SITE=ddaqds6varcnxtwo5q4iqkfdltu5aeln57xahehkq7iwntawskmvt4qd.onion
-      - TOR_SITE_PORT=443
     user: '10000'
 networks:
   amazeeio-network:
