@@ -2,7 +2,7 @@
 docker-compose-yaml: docker-compose.yml
 
 environments:
-  nontor:
+  ngrok:
     routes:
       - nginx:
         - donations.schnitzel.world
